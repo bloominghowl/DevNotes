@@ -1,4 +1,4 @@
-import rReact from "react";
+import React from "react";
 
 const Article  = () => {
     return (

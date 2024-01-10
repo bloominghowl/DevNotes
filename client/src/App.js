@@ -1,13 +1,18 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-// pages
+// Pages
 import Home from "./pages/Home";
 import About from "./pages/About"
 import ArticlesList from "./pages/ArticlesList";
 import Article  from "./pages/Article";
 
+//Components
+import Navbar from "./components/Navbar";
+
+
 function App() {
   return (
     <Router>
+    <Navbar />
       <div className='mx-w-screen-md max-auto pt-20'>
         <Routes>
           <Route path="/" element={<Home />} />
