@@ -18,11 +18,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About/>} />
           <Route path="/articles-list" element={<ArticlesList />} />
-          <Route path="/article" element={<Article />} />
+          <Route path="/article/:name" element={<Article />} />
         </Routes>
       </div>
     </Router>
   );
-}
+};
 
 export default App;
