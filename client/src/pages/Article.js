@@ -10,7 +10,7 @@ const Article  = () => {
         <div>
             <h1 className='sm:text-4xl text-2xl font-bold my-6 text-gray-900'> {article.title} </h1>
             {article.content.map((paragraph, index) => (
-    <p className='max-auto leading-relaxed text-base mb-4' key={index}>{paragraph}</p>
+    <p className='mx-auto leading-relaxed text-base mb-4' key={index}>{paragraph}</p>
 ))}
 
         </div>
